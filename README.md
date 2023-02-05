@@ -20,6 +20,10 @@
 
 ## Summary
 
+**ProcSpy** is free, open source, cross-platform, portable command prompt version of task manager,
+which allows you to monitor running processes, get CPU and memory usages, and much more. It also allows monitoring of logged-in users,
+temperatures, voltages, fan speeds etc. The information is presented in an easy-to-read and it is easy to install and use.
+
 
 
 <p align="center">
@@ -41,6 +45,13 @@ pip install procspy
 sudo snap install procspy
 >> procspy
 ```
+
+## Required packages
+ProcSpy is written in Python and uses libraries to grab information from your system. It is based on an open architecture where developers can add new plugins or exports modules.
+
+- ``python>=3.8``
+- ``psutil>=5.3.0`` (better with latest version)
+- ``colorama>=0.4.4``
 
 ## License
 
