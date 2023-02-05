@@ -1,13 +1,6 @@
-<p align="center">
-	<br>
-	<img src="https://github.com/Bamboooz/os.py/blob/master/banner.png?raw=true">
-	<br>
-	<br>
-	<b>ProcSpy</b>: Portable command prompt task-manager utility.
-	<br>
-</p>
+# ProcSpy - spies on your running tasks
 
-<p align="center">
+<p align="left">
 	<a href="https://opensource.org/licenses/MIT">
 		<img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
 	</a>
@@ -25,11 +18,13 @@
   <br>
 </p>
 
-## About
+## Summary
 
-ProcSpy is free, portable command prompt version of task manager. It allows to view CPU, memory, SWAP usages, CPU model, running processes etc.
 
-Current version: 1.0.0
+
+<p align="center">
+	<img src="https://github.com/Bamboooz/ProcSpy/blob/master/banner.png?raw=true">
+</p>
 
 ## Supported platforms
 
