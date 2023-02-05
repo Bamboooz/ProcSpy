@@ -41,7 +41,7 @@ pip install procspy
 >> procspy
 ```
 ### Installing using snap store (Linux only):
-```commandline
+```python
 sudo snap install procspy
 >> procspy
 ```
