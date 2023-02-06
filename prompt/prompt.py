@@ -1,9 +1,9 @@
 from scripts._common import *
-from sensor._inet import get_ipv4
+from system._inet import get_ipv4
 from sensor._cpu import *
 from sensor._mem import *
-from sensor._sys import *
-from sensor._time import *
+from system._sys import *
+from system._time import *
 
 PROC_SPY_VER = '1.0.0'
 

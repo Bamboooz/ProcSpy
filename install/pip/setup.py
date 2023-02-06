@@ -34,7 +34,7 @@ class LibrarySetup:
             keywords=['python', 'windows', 'linux', 'macos', 'cpu',
                       'temperature', 'motherboard', 'system-monitor',
                       'hardware-information', 'network-information'],
-            packages=['os_py', 'scripts'],
+            packages=['prompt', 'procspy', 'scripts', 'sensor', 'stdout'],
             install_requires=self.required_packages
         )
 

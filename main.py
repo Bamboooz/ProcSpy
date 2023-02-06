@@ -1,7 +1,7 @@
 import os
 import time
 
-from cmd.prompt import draw_proc_spy_screen
+from prompt.prompt import draw_proc_spy_screen
 
 
 if __name__ == '__main__':
