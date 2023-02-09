@@ -17,7 +17,7 @@ def cpu_model():
 
 def cpu_usage():
     cpu_percent = psutil.cpu_percent()
-    cpu_usage_bar = '█' * int(cpu_percent / 100.0 * 30) + ' ' * (30 - int(cpu_percent / 100.0 * 30))
+    cpu_usage_bar = '|' * int(cpu_percent / 100.0 * 30) + ' ' * (30 - int(cpu_percent / 100.0 * 30))
 
     col = {
         cpu_percent < 33: Fore.GREEN,
