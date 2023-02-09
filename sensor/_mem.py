@@ -5,7 +5,7 @@ from colorama import Fore, Style, Back
 
 def memory_usage():
     mem_percent = psutil.virtual_memory()
-    mem_usage_bar = '█' * int(mem_percent.percent / 100.0 * 30) + ' ' * (30 - int(mem_percent.percent / 100.0 * 30))
+    mem_usage_bar = '|' * int(mem_percent.percent / 100.0 * 30) + ' ' * (30 - int(mem_percent.percent / 100.0 * 30))
 
     fore_col = {
         mem_percent.percent < 33: Fore.GREEN,
@@ -32,7 +32,7 @@ def memory_usage():
 
 def swap_usage():
     swap_percent = psutil.swap_memory()
-    swap_usage_bar = '█' * int(swap_percent.percent / 100.0 * 30) + ' ' * (30 - int(swap_percent.percent / 100.0 * 30))
+    swap_usage_bar = '|' * int(swap_percent.percent / 100.0 * 30) + ' ' * (30 - int(swap_percent.percent / 100.0 * 30))
 
     fore_col = {
         swap_percent.percent < 33: Fore.GREEN,
